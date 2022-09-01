@@ -20,6 +20,16 @@ describe('Manager', () => {
         });
     });
 
+    describe('getOfficeNumber', () => {
+        it('should get the manager office number', () => {
+            const officeNumber = '5';
+
+            const obj = new Manager ('Tyler', '47', 'tyler@email.com', officeNumber);
+            
+            expect(obj.getOfficeNumber()).toEqual(officeNumber);
+        });
+    });
+    
     describe('getRole', () => {
         it('should return the managers role of "Manager"', () => {
             const obj = new Manager ('Tyler', '01', 'tyler@email.com', '1');
