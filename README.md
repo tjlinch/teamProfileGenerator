@@ -30,7 +30,7 @@ Jest
 
 ## Walkthrough link
 
-A
+https://drive.google.com/file/d/1OEpGSutko9daM1wwSm3_2xxY6Le5neJx/view
 
 ## Questions
 
