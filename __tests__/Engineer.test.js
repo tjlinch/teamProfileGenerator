@@ -10,7 +10,7 @@ describe('Engineer', () => {
             expect(obj.github).toEqual(github);
         });
 
-        it('should throw an error if not provided a value for the github property', () => {
+        it('should throw an error if not provided a value for the "github" property', () => {
             const cb = () => new Engineer();
             const err = new Error(
                 'Expected parameter "github" to be a non empty string'
