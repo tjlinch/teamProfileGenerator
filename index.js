@@ -61,7 +61,7 @@ function initApp () {
         ]).then(answers => {
             const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.managerOfficeNumber);
             teamArray.push(manager);
-            console.log(teamArray);
+            // console.log(teamArray);
             createTeam();
         });
     };
@@ -91,7 +91,7 @@ function initApp () {
         ]).then(answers => {
             const engineer = new Engineer(answers.engineerName, answers.engineerId, answers.engineerEmail, answers.engineerGithub);
             teamArray.push(engineer);
-            console.log(teamArray);
+            // console.log(teamArray);
             createTeam();
         });
     };
@@ -121,7 +121,7 @@ function initApp () {
         ]).then(answers => {
             const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.internSchool);
             teamArray.push(intern);
-            console.log(teamArray);
+            // console.log(teamArray);
             createTeam();
         });
     };
