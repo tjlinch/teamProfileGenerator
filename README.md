@@ -28,6 +28,12 @@ Inquirer
 
 Jest
 
+## Images
+
+!["Node commands to run the app"](./assets/images/Screen%20Shot%202022-10-09%20at%205.23.33%20PM.png)
+
+!["Generated html page"](./assets/images/Screen%20Shot%202022-10-09%20at%205.24.00%20PM.png)
+
 ## Walkthrough link
 
 https://drive.google.com/file/d/1OEpGSutko9daM1wwSm3_2xxY6Le5neJx/view
